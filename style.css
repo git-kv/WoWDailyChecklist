@@ -64,6 +64,12 @@ table {
 .description .section-title {
   text-align: center;
 }
+
+.notes {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 2rem;
+}
 .container {
   display: grid;
   justify-content: center;
