@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Remix Daily Checklist</title>
   <link rel="stylesheet" href="..\style.css">
+  <script defer src="..\script.js"></script>
 </head>
 <body>
     <div class="description">
@@ -14,35 +15,36 @@
     <div class="container">
       <h3 class="section-title">Daily Quests</h3>
       <ul>
-        <li><input type="checkbox" style="margin-right: 10px">Dungeon Daily Quest</li>
-        <li><input type="checkbox" style="margin-right: 10px">Scenario Daily Quest</li>
-        <li><input type="checkbox" style="margin-right: 10px">Raid Daily Quest</li>
+        <li><input type="checkbox" class="taskCheckbox" style="margin-right: 10px">Dungeon Daily Quest</li>
+        <li><input type="checkbox" class="taskCheckbox" style="margin-right: 10px">Scenario Daily Quest</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Raid Daily Quest</li>
       </ul>
       <h3 class="section-title">Looking for Group</h3>
       <ul>
-        <li><input type="checkbox" style="margin-right: 10px">Normal Dungeon</li>
-        <li><input type="checkbox" style="margin-right: 10px">Heroic Dungeon</li>
-        <li><input type="checkbox" style="margin-right: 10px">Normal Scenario</li>
-        <li><input type="checkbox" style="margin-right: 10px">Heroic Scenario</li>
-        <li><input type="checkbox" style="margin-right: 10px">Mogu'shan Vaults: Guardians of Mogu'shan</li>
-        <li><input type="checkbox" style="margin-right: 10px">Mogu'shan Vaults: The Vault of Mysteries</li>
-        <li><input type="checkbox" style="margin-right: 10px">Heart of Fear: The Dread Approach</li>
-        <li><input type="checkbox" style="margin-right: 10px">Heart of Fear: Nightmare of Shek'zeer</li>
-        <li><input type="checkbox" style="margin-right: 10px">Terrace of Endless Spring</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Normal Dungeon</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Heroic Dungeon</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Normal Scenario</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Heroic Scenario</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Mogu'shan Vaults: Guardians of Mogu'shan</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Mogu'shan Vaults: The Vault of Mysteries</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Heart of Fear: The Dread Approach</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Heart of Fear: Nightmare of Shek'zeer</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Terrace of Endless Spring</li>
       </ul>
       <h3 class="section-title">World Bosses</h3>
       <ul>
-        <li><input type="checkbox" style="margin-right: 10px">Galleon</li>
-        <li><input type="checkbox" style="margin-right: 10px">Sha of Anger</li>
-        <li><input type="checkbox" style="margin-right: 10px">Oondasta</li>
-        <li><input type="checkbox" style="margin-right: 10px">Nalak</li>
-        <li><input type="checkbox" style="margin-right: 10px">Ordos</li>
-        <li><input type="checkbox" style="margin-right: 10px">Celestial</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Galleon</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Sha of Anger</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Oondasta</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Nalak</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Ordos</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Celestial</li>
       </ul>
       <h3 class="section-title">Extra Events</h3>
       <ul>
-        <li><input type="checkbox" style="margin-right: 10px">Troves of the Thunder King</li>
+        <li><input type="checkbox" class="taskCheckbox"  style="margin-right: 10px">Troves of the Thunder King</li>
       </ul>
+      <button type="button" id="reset-btn">Reset</button>
     </div>
 </body>
 </html>
